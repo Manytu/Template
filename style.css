@@ -30,6 +30,10 @@ body {
     margin-left: 32px;
 }
 
+ul>li:nth-child(1).info-item {
+    margin-left: 0;
+}
+
 .social {
     float: right;
     margin-top: 0;
