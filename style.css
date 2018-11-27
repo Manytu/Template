@@ -30,7 +30,7 @@ body {
     margin-left: 32px;
 }
 
-ul>li:nth-child(1).info-item {
+.info-item:first-child {
     margin-left: 0;
 }
 
@@ -45,7 +45,7 @@ ul>li:nth-child(1).info-item {
     font-size: 14px;
 }
 
-li img {
+.social img {
     border-right: solid 1px #9bb3b8;
 }
 
