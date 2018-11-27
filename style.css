@@ -126,8 +126,8 @@ li {
     font-style: italic;
 }
 
-.estate_info ul>li:first-child {
-    color: red;
+.estate-info li:first-child {
+    list-style-type: none;
 }
 
 .price {
