@@ -83,7 +83,7 @@ li {
 
 .menu {
     float: right;
-    font-size: 9px;
+    font-size: 12px;
     margin: 40px 0px 0px 60px;
 }
 
@@ -136,4 +136,25 @@ li {
     position: relative;
     bottom: 10px;
     font-size: 24px;
+}
+
+.switcher {
+    position: absolute;
+    margin: 563px 0px 0px 400px;
+    color: lightgray;
+}
+
+.switcher-item {
+    display: block;
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.switcher-item:hover {
+    background-color: #fe5c11;
 }
