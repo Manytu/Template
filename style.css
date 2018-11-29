@@ -140,21 +140,22 @@ li {
 
 .switcher {
     position: absolute;
-    margin: 563px 0px 0px 400px;
-    color: lightgray;
+    margin: 558px 0px 0px 395px;
 }
 
 .switcher-item {
-    display: block;
-    height: 10px;
-    width: 10px;
+    height: 18px;
+    width: 0px;
     margin-left: 10px;
     border: 2px solid lightgray;
-    border-radius: 10px;
+    border-radius: 100%;
     cursor: pointer;
     transition: background-color 1s ease;
+    background-color: transparent;
 }
 
-.switcher-item:hover {
+.switcher-item:hover,
+.switcher-item:focus {
     background-color: #fe5c11;
+    outline: 0;
 }
