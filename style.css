@@ -165,3 +165,25 @@ h2 {
     text-align: center;
     margin-top: 40px;
 }
+
+.inline {
+    display: inline-block;
+}
+
+.field-icon {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.icon-btn {
+    height: 19px;
+    width: 19px;
+    background-position: center;
+    position: relative;
+    right: 30px;
+}
+
+.field_property1 {
+    height: 34px;
+    width: 220px;
+}
