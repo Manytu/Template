@@ -17,6 +17,8 @@ body {
 .wrapper {
     width: 940px;
     margin: 0 auto;
+    position: relative;
+    height: 100%;
 }
 
 .info {
@@ -104,8 +106,8 @@ li {
     width: 475px;
     background: #000000;
     position: absolute;
-    margin-top: 350px;
-    margin-left: 467px;
+    top: 350px;
+    right: 0;
 }
 
 .estate-info p {
@@ -140,12 +142,14 @@ li {
 
 .switcher {
     position: absolute;
-    margin: 558px 0px 0px 395px;
+    /* margin: 558px 0px 0px 395px; */
+    left: 50%;
+    bottom: 23px;
+    transform: translateX(-50%);
 }
 
 .switcher-item {
     height: 18px;
-    width: 0px;
     margin-left: 10px;
     border: 2px solid lightgray;
     border-radius: 100%;
