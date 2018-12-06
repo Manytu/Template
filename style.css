@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header_back {
@@ -169,18 +169,23 @@ h2 {
     margin-top: 40px;
 }
 
+.fltr-cont {
+    font-size: 0px;
+}
+
 .inline {
     display: inline-block;
+    position: relative;
 }
 
 .field-icon {
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 98% 50%;
 }
 
 .input_location {
-    width: 460px;
-    height: 34px;
+    width: 444px;
+    height: 30px;
 }
 
 .icon-btn {
@@ -192,11 +197,56 @@ h2 {
     top: 10px;
 }
 
-.field_property1 {
-    height: 34px;
-    width: 220px;
+.field_prop1 {
+    height: 30px;
+    width: 204px;
 }
 
-.relative {
-    position: relative;
+.field_prop2 {
+    height: 30px;
+    width: 174px;
+}
+
+.field_prop3 {
+    height: 30px;
+    width: 124px;
+}
+
+.inpt_bg_clr {
+    border: 1px solid #ddd;
+    box-shadow: inset 0px 1px 1px 0 rgba(155, 179, 184, 0.4);
+    background-color: #f2f3f4;
+}
+
+input {
+    padding-left: 13px;
+    text-decoration: none;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.inpt_spc {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.btn-sub {
+    height: 34px;
+    width: 200px;
+    background-color: #fe5c11;
+    color: #ffffff;
+    font-size: 12px;
+    background-image: url('img/');
+    border: 0;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.fa-search {
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    right: 64px;
+    color: white;
 }
