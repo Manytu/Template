@@ -224,6 +224,12 @@ input {
     text-decoration: none;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 input:focus {
     outline-width: 0;
 }
@@ -236,6 +242,7 @@ input:focus {
 .btn-sub {
     height: 34px;
     width: 200px;
+    padding: 0px;
     padding-right: 30px;
     background-color: #fe5c11;
     color: #ffffff;
