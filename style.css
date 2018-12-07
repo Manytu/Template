@@ -171,6 +171,7 @@ h2 {
 
 .fltr-cont {
     font-size: 0px;
+    height: 154px;
 }
 
 .inline {
@@ -235,6 +236,7 @@ input:focus {
 .btn-sub {
     height: 34px;
     width: 200px;
+    padding-right: 30px;
     background-color: #fe5c11;
     color: #ffffff;
     font-size: 12px;
