@@ -259,3 +259,51 @@ input:focus {
     right: 64px;
     color: white;
 }
+
+.text {
+    margin: 0 auto;
+    margin-bottom: 27px;
+    width: 593px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-link {
+    color: #fe5c11;
+    text-decoration: none;
+}
+
+.article-estate {
+    height: 422px;
+    width: 300px;
+    border: 1px solid darkgray;
+}
+
+.article-title {
+    text-align: center;
+    margin: 20px 0 21px 0px;
+}
+
+.article-line {
+    width: 260px;
+    margin: 0 20px 0 20px;
+    border-top: 1px solid #cccccc;
+    padding: 8px 0 0px;
+}
+
+.article-option {
+    float: left;
+}
+
+.article-value {
+    float: right;
+}
+
+.article-font {
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.article-price {
+    font-size: 14px;
+}
