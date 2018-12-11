@@ -264,6 +264,10 @@ input:focus {
     color: white;
 }
 
+.prop-title {
+    margin: 28px 0 20px 0;
+}
+
 .text {
     margin: 0 auto;
     margin-bottom: 27px;
@@ -324,4 +328,61 @@ input:focus {
 .article-container-line {
     display: flex;
     margin-bottom: 20px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.client-container-line {
+    margin-bottom: 32px;
+}
+
+.client-agent-text {
+    width: 761px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.client-pic {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.client-feedback {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+.client-text-cont {
+    width: 390px;
+    float: right;
+}
+
+.clnt-cont-spc-btwn {
+    margin-right: 20px;
+}
+
+.client-container-line {
+    display: flex;
+}
+
+.client-stamp {
+    margin-top: 5px;
+    color: #9bb3b8;
+}
+
+.client-name {
+    font-size: 14px;
+}
+
+.client-company {
+    font-size: 11px;
+    margin-left: 4px;
 }
