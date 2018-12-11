@@ -276,12 +276,16 @@ input:focus {
 .article-estate {
     height: 422px;
     width: 300px;
-    border: 1px solid darkgray;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article-img {
+    display: block;
 }
 
 .article-title {
     text-align: center;
-    margin: 20px 0 21px 0px;
+    margin: 20px 0 15px;
 }
 
 .article-line {
@@ -306,4 +310,14 @@ input:focus {
 
 .article-price {
     font-size: 14px;
+    color: #fe5c11;
+}
+
+.article-center {
+    margin: 0 20px;
+}
+
+.article-container-line {
+    display: flex;
+    margin-bottom: 20px;
 }
