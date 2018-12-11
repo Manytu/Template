@@ -99,6 +99,10 @@ body {
     float: right;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 .estate-info {
     height: 100px;
     width: 475px;
