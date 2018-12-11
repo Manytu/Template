@@ -91,6 +91,10 @@ body {
     margin-left: 32px;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 .slider {
     height: 596px;
 }
