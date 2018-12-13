@@ -202,17 +202,17 @@ h2 {
     top: 10px;
 }
 
-.field_prop1 {
+.inpt_big {
     height: 30px;
     width: 204px;
 }
 
-.field_prop2 {
+.inpt_medium {
     height: 30px;
     width: 174px;
 }
 
-.field_prop3 {
+.inpt_small {
     height: 30px;
     width: 124px;
 }
