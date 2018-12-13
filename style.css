@@ -206,6 +206,10 @@ h2 {
     margin: 0 20px;
 }
 
+.fltr-space-top {
+    margin-top: 30px;
+}
+
 .inpt_big {
     height: 30px;
     width: 204px;
@@ -240,11 +244,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 input:focus {
     outline-width: 0;
-}
-
-.inpt_spc {
-    margin-left: 20px;
-    margin-top: 30px;
 }
 
 .btn-sub {
