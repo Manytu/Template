@@ -97,10 +97,26 @@ body {
 
 .slider {
     height: 596px;
+    position: relative;
+    width: 100vw;
 }
 
-.slide {
-    float: right;
+.full_image {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: inherit;
+    width: 100%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.top-space {
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 .estate-info {
@@ -242,8 +258,17 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-input:focus {
+input:focus,
+button:focus {
     outline-width: 0;
+}
+
+.inpt_spc {
+    margin: 0 20px;
+}
+
+.fltr-space-top {
+    margin-top: 30px;
 }
 
 .btn-sub {
