@@ -93,14 +93,26 @@ body {
 
 .slider {
     height: 596px;
+    position: relative;
+    width: 100vw;
 }
 
-.slide {
-    float: right;
+.full_image {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: inherit;
+    width: 100%;
 }
 
 .font-bold {
     font-weight: bold;
+}
+
+.top-space {
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 .estate-info {
