@@ -389,3 +389,8 @@ input:focus {
     font-size: 11px;
     margin-left: 4px;
 }
+
+.agent-pic-cont {
+    display: flex;
+    margin-bottom: 70px;
+}
