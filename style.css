@@ -485,10 +485,42 @@ footer {
 .footer-title {
     color: white;
     text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .footer-cont {
     width: 280px;
-    height: 100%;
     margin-right: 40px;
+    color: #9bb3b8;
+    font-size: 12px;
+    float: left;
+}
+
+.follow-cont {
+    color: #9bb3b8;
+    width: 284px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer_social_pic {
+    font-size: 24px;
+    padding: 0 24px 0 0;
+}
+
+.copyright {
+    border-top: 1px solid #9bb3b8;
+    color: #9bb3b8;
+    font-size: 11px;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 13px 0;
 }
