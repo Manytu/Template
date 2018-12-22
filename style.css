@@ -91,6 +91,10 @@ body {
     margin-left: 32px;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 .slider {
     height: 596px;
     position: relative;
@@ -214,6 +218,14 @@ h2 {
     top: 10px;
 }
 
+.inpt_spc {
+    margin: 0 20px;
+}
+
+.fltr-space-top {
+    margin-top: 30px;
+}
+
 .inpt_big {
     height: 30px;
     width: 204px;
@@ -259,17 +271,27 @@ button:focus {
     margin-top: 30px;
 }
 
+.btn-org {
+    background-color: #fe5c11;
+    color: #ffffff;
+    font-size: 12px;
+    border: 0;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
 .btn-sub {
     height: 34px;
     width: 200px;
     padding: 0px;
     padding-right: 30px;
-    background-color: #fe5c11;
-    color: #ffffff;
-    font-size: 12px;
-    background-image: url('img/');
-    border: 0;
-    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-sign-up {
+    height: 34px;
+    width: 85px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 31px;
 }
 
 .fa-search {
@@ -278,4 +300,227 @@ button:focus {
     top: 30%;
     right: 64px;
     color: white;
+}
+
+.prop-title {
+    margin: 28px 0 20px 0;
+}
+
+.text {
+    margin: 0 auto;
+    margin-bottom: 27px;
+    width: 593px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.text-link {
+    color: #fe5c11;
+    text-decoration: none;
+}
+
+.article-estate {
+    height: 422px;
+    width: 300px;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article-img {
+    display: block;
+}
+
+.article-title {
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.article-line {
+    width: 260px;
+    margin: 0 20px 0 20px;
+    border-top: 1px solid #cccccc;
+    padding: 8px 0 0px;
+}
+
+.article-option {
+    float: left;
+}
+
+.article-value {
+    float: right;
+}
+
+.article-font {
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.article-price {
+    font-size: 14px;
+    color: #fe5c11;
+}
+
+.article-center {
+    margin: 0 20px;
+}
+
+.article-container-line {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.client-container-line {
+    margin-bottom: 32px;
+}
+
+.client-agent-text {
+    width: 761px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.client-pic {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.client-feedback {
+    display: block;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+.client-text-cont {
+    width: 390px;
+    float: right;
+}
+
+.clnt-cont-spc-btwn {
+    margin-right: 20px;
+}
+
+.client-container-line {
+    display: flex;
+}
+
+.client-stamp {
+    margin-top: 5px;
+    color: #9bb3b8;
+}
+
+.client-name {
+    font-size: 14px;
+}
+
+.client-company {
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.agent-pic-cont {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.agent-pic {
+    background: url("/img/default.jpeg");
+    background-image: linear-gradient(red, yellow);
+    width: 172px;
+    height: 140px;
+}
+
+.newsletter-title {
+    margin: 0;
+    padding: 32px 31px 20px;
+    text-align: left;
+}
+
+.news-cont {
+    height: 34px;
+    display: flex;
+}
+
+.input-email {
+    width: 323px;
+    height: 30px;
+}
+
+.news-note {
+    width: 389px;
+    height: 31px;
+    font-size: 14px;
+    margin: 0 59px 0 32px;
+}
+
+.subscr-bg {
+    width: 100%;
+    height: 205px;
+    background: #9bb3b8;
+}
+
+.subscr-container {
+    width: 940px;
+    height: 141px;
+    margin: 0 auto;
+    position: relative;
+    top: 18%;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.footer_back_color {
+    width: 100%;
+    height: 296px;
+    background-color: #1c2122;
+}
+
+.footer-title {
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-cont {
+    width: 280px;
+    margin-right: 40px;
+    color: #9bb3b8;
+    font-size: 12px;
+    float: left;
+}
+
+.follow-cont {
+    color: #9bb3b8;
+    width: 284px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer_social_pic {
+    font-size: 24px;
+    padding: 0 24px 0 0;
+}
+
+.copyright {
+    border-top: 1px solid #9bb3b8;
+    color: #9bb3b8;
+    font-size: 11px;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 13px 0;
 }
