@@ -476,7 +476,7 @@ button:focus {
     background: white;
 }
 
-footer {
+.footer_back_color {
     width: 100%;
     height: 296px;
     background-color: #1c2122;
